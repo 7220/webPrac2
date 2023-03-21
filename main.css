@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.main {
+  height: 800px;
+  width: 1440px;
+  display: flex;
+  background-color: seashell;
+}
+.main .sub {
+  height: 500px;
+  width: 600px;
+  display: flex;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px;
+}
+.main .sub .left {
+  height: 100%;
+  width: 50%;
+  
+} 
+.main .sub .left img { 
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+  object-fit: cover;
+}
+.main .sub .right {
+  height: 100%;
+  width: 50%;
+}
+.main .sub .right .right-border {
+  margin: 25px;
+}
+.main .sub .right .right-border .title-s {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.main .sub .right .right-border .title-s p {
+  color: #888;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+}
+.main .sub .right .right-border .title-l {
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 0.95;
+  margin-bottom: 20px;
+}
+.main .sub .right .right-border .des {
+  font-weight: 500;
+  color: #888;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.main .sub .right .right-border .pay {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main .sub .right .right-border .pay .pay-o {
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 40px;
+  font-weight: 700;
+}
+.main .sub .right .right-border .pay .pay-dis {
+  text-decoration-line: line-through;
+  margin-left: 20px;
+}
+.main .sub .right .right-border .btn-add {
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .sub .right .right-border .btn-add:hover {
+  background-color: hsl(158, 22%, 23%);
+
+}
